@@ -50,10 +50,7 @@
         ENDCG
     }
 	SubShader {
-		UsePass "Standard/SHADOWCASTER"
-	}
-	SubShader {
-		UsePass "Standard/META"
+		UsePass "Standard/ShadowCaster"
 	}
 
     FallBack "Diffuse"
